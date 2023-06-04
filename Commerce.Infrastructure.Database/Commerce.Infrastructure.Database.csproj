@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="mediatR" Version="12.0.1" />
+
+    <ProjectReference Include="..\Commerce.Domain.Core\Commerce.Domain.Core.csproj" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5" />
+
+  </ItemGroup>
+
+</Project>
